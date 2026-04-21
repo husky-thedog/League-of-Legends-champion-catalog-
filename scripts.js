@@ -66,7 +66,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid/Top",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/28XPS8hithw?si=W9iVFVEZT3AdvOUE"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
@@ -75,7 +75,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Support",
     Role: "Catcher",
-    Guide: ""
+    Guide: "https://youtu.be/FDqYgPYd4YM?si=HSuCBVQnvtPYc_tA"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
@@ -84,7 +84,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Support",
     Role: "Tank",
-    Guide: ""
+    Guide: "https://youtu.be/cjZ11G_CmHE?si=0QGXka2X-t2qbgzX"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
@@ -93,7 +93,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/HR7e5_hpp98?si=eaneWir9vW1H6Ieh"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
@@ -102,7 +102,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Top",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/EFsFkX1PWmY?si=7yG0cV81GqQ3GgnS"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
@@ -111,7 +111,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/eTSPXREH_Nk?si=JSOdxZkruKbo-j5F"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
@@ -120,7 +120,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/F4_pRttmJik?si=5RAERlB4GQ48-o82"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
@@ -129,7 +129,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Jungle/Mid",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/BPWzu7pgMdY?si=88jisS6w76L3eOZ_"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
@@ -138,7 +138,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/Z0WqO6UitxQ?si=Dt7vyfUtqKAR2c82"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
@@ -147,7 +147,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Top",
     Role: "Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/yslyUW9eNO4?si=PKIQ_-WNR51Cdnad"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
@@ -156,7 +156,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/aDWZl__4n-o?si=yDnVG_toxtAVeY-_"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
@@ -165,7 +165,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/DS6q5EHOT9o?si=n8Y5J5v7S1me0V7H"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
@@ -174,7 +174,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Top",
     Role: "Tank/Fighter",
-    Guide: ""
+    Guide: "https://youtu.be/4urcal-SckY?si=Nk4Rb42aIH5j8MZi"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
@@ -183,7 +183,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Jungle",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/yq103cHK50g?si=lAdZEx725_wdo0yW"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
@@ -192,7 +192,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid",
     Role: "Artillery Mage",
-    Guide: ""
+    Guide: "https://youtu.be/_Qe-x-3tMPc?si=1Dpe_-RrOAhy6XRq"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
@@ -201,7 +201,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Top/Mid",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/LiIlWw10QAY?si=FU_22FHhJjBWkSrj"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
@@ -210,7 +210,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Jungle",
     Role: "Support",
-    Guide: ""
+    Guide: "https://youtu.be/9-f-QkldYyA?si=1WH30CgreAnnxtvg"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
@@ -219,7 +219,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/iB7ZpC9ZKTI?si=SumYLCn4rYgFDp7J"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
@@ -228,7 +228,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/AWfVCUa3HDs?si=9KJBArz1uADn99B5"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
@@ -237,7 +237,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/-guM_2kESCo?si=GTKfUCisRJEOqqc8"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
@@ -246,7 +246,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/QBJcaEw9HFI?si=g7wIG2iPcHpLmo7f"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
@@ -255,7 +255,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Jungle",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/9UhBQuAF-XA?si=IOuYTdD5pE9ZGuaR"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
@@ -264,7 +264,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Mid/Support",
     Role: "Burst Mage",
-    Guide: ""
+    Guide: "https://youtu.be/odYRhca11eo?si=wNrnkK6zB_tlDsTH"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
@@ -273,7 +273,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top",
     Role: "Tank",
-    Guide: ""
+    Guide: "https://youtu.be/x0Dtfu6kXEs?si=9owuoc0FOUQmmONq"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
@@ -282,7 +282,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Jungle",
     Role: "Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/QLsAYapLmko?si=FuGqCxBzoc-2jDNF"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
@@ -291,7 +291,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Support",
     Role: "Enchanter",
-    Guide: ""
+    Guide: "https://youtu.be/HoqwZsKQSMM?si=rlxPQLFjZKZhOkME"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
@@ -300,7 +300,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/E4Upt2eiUz0?si=lQywFBjq4ou8u9Mw"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
@@ -309,7 +309,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top/Jungle",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/EK2ElT-KJoA?si=op2u4ta61YDFoeGw"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
@@ -318,7 +318,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid",
     Role: "Burst Mage",
-    Guide: ""
+    Guide: "https://youtu.be/hYgeMWJ19h0?si=YGxHVbR2pr5GCbBF"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
@@ -327,7 +327,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top/Mid/Support",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/KnLk5Zd1OXA?si=KZpzbWS18ApWwGql"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
@@ -336,7 +336,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Support",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/IH4JfX2jVKM?si=ba8xku36_mP-GcWt"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
@@ -345,7 +345,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid/Jungle",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/IH4JfX2jVKM?si=ba8xku36_mP-GcWt"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
@@ -354,7 +354,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/rXSmA6bo4X4?si=y59H04XwpXNKrbj5"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
@@ -363,7 +363,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Top",
     Role: "Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/z2ExpUD6mHk?si=YKg7V2D5-SgzIpYA"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
@@ -372,7 +372,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid/Top",
     Role: "Battlemage",
-    Guide: ""
+    Guide: "https://youtu.be/z2ExpUD6mHk?si=YKg7V2D5-SgzIpYA"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
@@ -381,7 +381,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/PtL2RPV69aY?si=YxO_IKjTO7lgI0-l"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
@@ -390,7 +390,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Support",
     Role: "Enchanter",
-    Guide: ""
+    Guide: "https://youtu.be/RUO4YuxWJaY?si=g9ozMXm_91FDhxiB"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
@@ -399,7 +399,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Top",
     Role: "Specialist",
-    Guide: ""
+    Guide: "https://youtu.be/fXhL_uYHIs4?si=XMJAlZzrSahA4YOU"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
@@ -408,7 +408,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Support",
     Role: "Catcher",
-    Guide: ""
+    Guide: "https://youtu.be/bBE3tEMaaq4?si=UaWgyj27KPGDiwtn"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
@@ -417,7 +417,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top/Jungle",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/6XqbA2-oKuo?si=2nDo3G_v3DcGCDJ-"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
@@ -426,7 +426,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top",
     Role: "Juggernaut",
-    Guide: ""
+    Guide: "https://youtu.be/gyI2kCwIyTA?si=YIRniDT1iWuD7PE3"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
@@ -444,7 +444,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Jungle",
     Role: "Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/-gywMLzMI8A?si=yCRoF8P1LpHNZC0c"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
@@ -453,7 +453,7 @@ const Champion = [
     Difficulty: "Low",
     Lane: "Jungle/Top",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/UK0oLDYqVFA?si=CTdUPNlkZtnGGHKP"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
@@ -462,7 +462,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Top/Jungle",
     Role: "Diver",
-    Guide: ""
+    Guide: "https://youtu.be/6T92BZlZLe0?si=JOcUO-8w_KUTMBuP"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
@@ -471,7 +471,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/zkcGylAy4-0?si=d8o2k54ba45FjFKp"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg",
@@ -480,7 +480,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Mid/Support",
     Role: "Artillery Mage",
-    Guide: ""
+    Guide: "https://youtu.be/xDY6ebtp3RQ?si=h66zXjl1ytZ4VB1w"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
@@ -489,7 +489,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid/Top",
     Role: "Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/QwqVNnUZWTw?si=QIiskWAiuUEFwcH-"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
@@ -498,7 +498,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid/Top",
     Role: "Assassin/Skirmisher",
-    Guide: ""
+    Guide: "https://youtu.be/hxjOAHFP2dI?si=IOH_SIFPlTZpy6gJ"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
@@ -507,7 +507,7 @@ const Champion = [
     Difficulty: "High",
     Lane: "Mid",
     Role: "Assassin",
-    Guide: ""
+    Guide: "https://youtu.be/eKoHcwO8C7s?si=QFcOsnTG3UqHCo_j"
   },
   {
     Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
@@ -516,7 +516,7 @@ const Champion = [
     Difficulty: "Moderate",
     Lane: "Bot",
     Role: "Marksman",
-    Guide: ""
+    Guide: "https://youtu.be/gr8DNcGo0ck?si=mvuSjTRSND9uBFEl"
   }
 ];
 
