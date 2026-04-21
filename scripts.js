@@ -530,7 +530,6 @@ function showCards() {
   for (let i = 0; i < displayedChampion.length; i++) {
     const champion = displayedChampion[i];
 
-    // FIX: Build the card from scratch instead of cloning the broken template.
     // The template in index.html had no <ul> and used wrong tags, so we create
     // the full card HTML here to match what editCardContent expects.
     const newCard = document.createElement("div");
@@ -548,13 +547,10 @@ function showCards() {
 }
 
 // Populates a card element with a champion's data
-// FIX: function now takes (card, champion) — previously incorrectly took (card, Champion)
-//      which shadowed the global array, and was called with wrong arguments anyway.
 function editCardContent(card, champion) {
   card.style.display = "block";
 
-  // FIX: was card.querySelector('h1') — template uses <h2>, not <h1>
-  card.querySelector("h2").textContent = champion.Name;
+  card.querySelector("h2").textContent = champion.Name; 
   card.querySelector("img").src = champion.Image;
   card.querySelector("img").alt = champion.Name + " Splash Art";
 
@@ -563,7 +559,6 @@ function editCardContent(card, champion) {
 
 // Opens the detail modal for a given champion
 function openModal(champion) {
-  // FIX: was "modal-image" — the actual HTML id is "modal-img"
   document.getElementById("modal-img").src               = champion.Image;
   document.getElementById("modal-name").textContent      = champion.Name;
   document.getElementById("modal-role").textContent      = champion.Role;
@@ -595,7 +590,6 @@ function applyFilters() {
   const roleVal   = document.getElementById("roleFilter").value;
   const laneVal   = document.getElementById("laneFilter").value;
   const diffVal   = document.getElementById("diffFilter").value;
-  // FIX: "sortSelect" didn't exist in index.html — we added it there.
   const sortVal   = document.getElementById("sortSelect").value;
 
   let result = Champion.filter(c => {
@@ -652,7 +646,6 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("sortSelect").addEventListener("change",  applyFilters);
   document.getElementById("resetBtn").addEventListener("click",     resetFilters);
 
-  // FIX: clicking anywhere on a card opens the modal, not just the <h2>.
   // We use event delegation on the container and walk up to find the .card element.
   document.getElementById("card-container").addEventListener("click", function(e) {
     const card = e.target.closest(".card");
