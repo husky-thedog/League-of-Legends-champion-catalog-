@@ -1,3 +1,4 @@
+
 /**
  * Data Catalog Project Starter Code - SEA Stage 2
  *
@@ -22,76 +23,652 @@
  *    with the string you added to the array, but a broken image.
  *
  */
-
-const FRESH_PRINCE_URL =
-  "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const CURB_POSTER_URL =
-  "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const EAST_LOS_HIGH_POSTER_URL =
-  "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
-
-// This is an array of strings (TV show titles)
-let titles = [
-  "Fresh Prince of Bel Air",
-  "Curb Your Enthusiasm",
-  "East Los High",
+// This is an array of strings 
+/**
+ * Data Catalog Project Starter Code - SEA Stage 2
+ *
+ * This file is where you should be doing most of your work. You should
+ * also make changes to the HTML and CSS files, but we want you to prioritize
+ * demonstrating your understanding of data structures, and you'll do that
+ * with the JavaScript code you write in this file.
+ *
+ * The comments in this file are only to help you learn how the starter code
+ * works. The instructions for the project are in the README. That said, here
+ * are the three things you should do first to learn about the starter code:
+ * - 1 - Change something small in index.html or style.css, then reload your
+ *    browser and make sure you can see that change.
+ * - 2 - On your browser, right click anywhere on the page and select
+ *    "Inspect" to open the browser developer tools. Then, go to the "console"
+ *    tab in the new window that opened up. This console is where you will see
+ *    JavaScript errors and logs, which is extremely helpful for debugging.
+ *    (These instructions assume you're using Chrome, opening developer tools
+ *    may be different on other browsers. We suggest using Chrome.)
+ * - 3 - Add another string to the titles array a few lines down. Reload your
+ *    browser and observe what happens. You should see a fourth "card" appear
+ *    with the string you added to the array, but a broken image.
+ *
+ */
+// This is an array of strings 
+const Champion = [
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg",
+    Name: "Ahri",
+    Bio: Bio_Data.Ahri,
+    Difficulty: "Moderate",
+    Lane: "Mid",
+    Role: "Mage",
+    Guide: "https://youtu.be/wtxp6f9SVLE?si=2lbdztEokwy1WWTQ"
+  },
+   {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg",
+    Name: "Akali",
+    Bio: Bio_Data.Akali,
+    Difficulty: "High",
+    Lane: "Mid/Top",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+    Name: "Bard",
+    Bio: Bio_Data.Bard,
+    Difficulty: "High",
+    Lane: "Support",
+    Role: "Catcher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+    Name: "Blitzcrank",
+    Bio: Bio_Data.Blitzcrank,
+    Difficulty: "Low",
+    Lane: "Support",
+    Role: "Tank",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    Name: "Caitlyn",
+    Bio: Bio_Data.Caitlyn,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+    Name: "Camille",
+    Bio: Bio_Data.Camille,
+    Difficulty: "High",
+    Lane: "Top",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+    Name: "Darius",
+    Bio: Bio_Data.Darius,
+    Difficulty: "Moderate",
+    Lane: "Top",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+    Name: "Draven",
+    Bio: Bio_Data.Draven,
+    Difficulty: "High",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+    Name: "Ekko",
+    Bio: Bio_Data.Ekko,
+    Difficulty: "High",
+    Lane: "Jungle/Mid",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+    Name: "Ezreal",
+    Bio: Bio_Data.Ezreal,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiora_0.jpg",
+    Name: "Fiora",
+    Bio: Bio_Data.Fiora,
+    Difficulty: "High",
+    Lane: "Top",
+    Role: "Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fizz_0.jpg",
+    Name: "Fizz",
+    Bio: Bio_Data.Fizz,
+    Difficulty: "High",
+    Lane: "Mid",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg",
+    Name: "Garen",
+    Bio: Bio_Data.Garen,
+    Difficulty: "Low",
+    Lane: "Top",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gnar_0.jpg",
+    Name: "Gnar",
+    Bio: Bio_Data.Gnar,
+    Difficulty: "High",
+    Lane: "Top",
+    Role: "Tank/Fighter",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hecarim_0.jpg",
+    Name: "Hecarim",
+    Bio: Bio_Data.Hecarim,
+    Difficulty: "Moderate",
+    Lane: "Jungle",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Hwei_0.jpg",
+    Name: "Hwei",
+    Bio: Bio_Data.Hwei,
+    Difficulty: "High",
+    Lane: "Mid",
+    Role: "Artillery Mage",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Irelia_0.jpg",
+    Name: "Irelia",
+    Bio: Bio_Data.Irelia,
+    Difficulty: "High",
+    Lane: "Top/Mid",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ivern_0.jpg",
+    Name: "Ivern",
+    Bio: Bio_Data.Ivern,
+    Difficulty: "High",
+    Lane: "Jungle",
+    Role: "Support",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jhin_0.jpg",
+    Name: "Jhin",
+    Bio: Bio_Data.Jhin,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg",
+    Name: "Jinx",
+    Bio: Bio_Data.Jinx,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kaisa_0.jpg",
+    Name: "Kai'Sa",
+    Bio: Bio_Data.Kaisa,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Katarina_0.jpg",
+    Name: "Katarina",
+    Bio: Bio_Data.Katarina,
+    Difficulty: "High",
+    Lane: "Mid",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/LeeSin_0.jpg",
+    Name: "Lee Sin",
+    Bio: Bio_Data.LeeSin,
+    Difficulty: "High",
+    Lane: "Jungle",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg",
+    Name: "Lux",
+    Bio: Bio_Data.Lux,
+    Difficulty: "Low",
+    Lane: "Mid/Support",
+    Role: "Burst Mage",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Malphite_0.jpg",
+    Name: "Malphite",
+    Bio: Bio_Data.Malphite,
+    Difficulty: "Low",
+    Lane: "Top",
+    Role: "Tank",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MasterYi_0.jpg",
+    Name: "Master Yi",
+    Bio: Bio_Data.MasterYi,
+    Difficulty: "Low",
+    Lane: "Jungle",
+    Role: "Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nami_0.jpg",
+    Name: "Nami",
+    Bio: Bio_Data.Nami,
+    Difficulty: "Moderate",
+    Lane: "Support",
+    Role: "Enchanter",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Nasus_0.jpg",
+    Name: "Nasus",
+    Bio: Bio_Data.Nasus,
+    Difficulty: "Low",
+    Lane: "Top",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Olaf_0.jpg",
+    Name: "Olaf",
+    Bio: Bio_Data.Olaf,
+    Difficulty: "Moderate",
+    Lane: "Top/Jungle",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Orianna_0.jpg",
+    Name: "Orianna",
+    Bio: Bio_Data.Orianna,
+    Difficulty: "High",
+    Lane: "Mid",
+    Role: "Burst Mage",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pantheon_0.jpg",
+    Name: "Pantheon",
+    Bio: Bio_Data.Pantheon,
+    Difficulty: "Low",
+    Lane: "Top/Mid/Support",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Pyke_0.jpg",
+    Name: "Pyke",
+    Bio: Bio_Data.Pyke,
+    Difficulty: "High",
+    Lane: "Support",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Qiyana_0.jpg",
+    Name: "Qiyana",
+    Bio: Bio_Data.Qiyana,
+    Difficulty: "High",
+    Lane: "Mid/Jungle",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Quinn_0.jpg",
+    Name: "Quinn",
+    Bio: Bio_Data.Quinn,
+    Difficulty: "Moderate",
+    Lane: "Top",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_0.jpg",
+    Name: "Riven",
+    Bio: Bio_Data.Riven,
+    Difficulty: "High",
+    Lane: "Top",
+    Role: "Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ryze_0.jpg",
+    Name: "Ryze",
+    Bio: Bio_Data.Ryze,
+    Difficulty: "High",
+    Lane: "Mid/Top",
+    Role: "Battlemage",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sett_0.jpg",
+    Name: "Sett",
+    Bio: Bio_Data.Sett,
+    Difficulty: "Low",
+    Lane: "Top",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Soraka_0.jpg",
+    Name: "Soraka",
+    Bio: Bio_Data.Soraka,
+    Difficulty: "Low",
+    Lane: "Support",
+    Role: "Enchanter",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg",
+    Name: "Teemo",
+    Bio: Bio_Data.Teemo,
+    Difficulty: "Low",
+    Lane: "Top",
+    Role: "Specialist",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Thresh_0.jpg",
+    Name: "Thresh",
+    Bio: Bio_Data.Thresh,
+    Difficulty: "High",
+    Lane: "Support",
+    Role: "Catcher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Udyr_0.jpg",
+    Name: "Udyr",
+    Bio: Bio_Data.Udyr,
+    Difficulty: "Moderate",
+    Lane: "Top/Jungle",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Urgot_0.jpg",
+    Name: "Urgot",
+    Bio: Bio_Data.Urgot,
+    Difficulty: "Moderate",
+    Lane: "Top",
+    Role: "Juggernaut",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg",
+    Name: "Vayne",
+    Bio: Bio_Data.Vayne,
+    Difficulty: "High",
+    Lane: "Bot/Top",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Viego_0.jpg",
+    Name: "Viego",
+    Bio: Bio_Data.Viego,
+    Difficulty: "High",
+    Lane: "Jungle",
+    Role: "Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg",
+    Name: "Warwick",
+    Bio: Bio_Data.Warwick,
+    Difficulty: "Low",
+    Lane: "Jungle/Top",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/MonkeyKing_0.jpg",
+    Name: "Wukong",
+    Bio: Bio_Data.Wukong,
+    Difficulty: "Moderate",
+    Lane: "Top/Jungle",
+    Role: "Diver",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg",
+    Name: "Xayah",
+    Bio: Bio_Data.Xayah,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xerath_0.jpg",
+    Name: "Xerath",
+    Bio: Bio_Data.Xerath,
+    Difficulty: "Moderate",
+    Lane: "Mid/Support",
+    Role: "Artillery Mage",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yasuo_0.jpg",
+    Name: "Yasuo",
+    Bio: Bio_Data.Yasuo,
+    Difficulty: "High",
+    Lane: "Mid/Top",
+    Role: "Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Yone_0.jpg",
+    Name: "Yone",
+    Bio: Bio_Data.Yone,
+    Difficulty: "High",
+    Lane: "Mid/Top",
+    Role: "Assassin/Skirmisher",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg",
+    Name: "Zed",
+    Bio: Bio_Data.Zed,
+    Difficulty: "High",
+    Lane: "Mid",
+    Role: "Assassin",
+    Guide: ""
+  },
+  {
+    Image: "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zeri_0.jpg",
+    Name: "Zeri",
+    Bio: Bio_Data.Zeri,
+    Difficulty: "Moderate",
+    Lane: "Bot",
+    Role: "Marksman",
+    Guide: ""
+  }
 ];
-// Your final submission should have much more data than this, and
-// you should use more than just an array of strings to store it all.
 
-// This function adds cards the page to display the data in the array
+let displayedChampion = [...Champion]; // Holds the currently displayed champions (may be filtered/sorted)
+
+// Renders all cards in displayedChampion to the page
 function showCards() {
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
-  const templateCard = document.querySelector(".card");
 
-  for (let i = 0; i < titles.length; i++) {
-    let title = titles[i];
+  for (let i = 0; i < displayedChampion.length; i++) {
+    const champion = displayedChampion[i];
 
-    // This part of the code doesn't scale very well! After you add your
-    // own data, you'll need to do something totally different here.
-    let imageURL = "";
-    if (i == 0) {
-      imageURL = FRESH_PRINCE_URL;
-    } else if (i == 1) {
-      imageURL = CURB_POSTER_URL;
-    } else if (i == 2) {
-      imageURL = EAST_LOS_HIGH_POSTER_URL;
-    }
+    // FIX: Build the card from scratch instead of cloning the broken template.
+    // The template in index.html had no <ul> and used wrong tags, so we create
+    // the full card HTML here to match what editCardContent expects.
+    const newCard = document.createElement("div");
+    newCard.className = "card";
+    newCard.innerHTML = `
+      <img src="" alt="" />
+      <div class="card-name"><h2></h2></div>
+    `;
 
-    const nextCard = templateCard.cloneNode(true); // Copy the template card
-    editCardContent(nextCard, title, imageURL); // Edit title and image
-    cardContainer.appendChild(nextCard); // Add new card to the container
+    editCardContent(newCard, champion); // FIX: pass the full champion object (not Name + Image separately)
+    cardContainer.appendChild(newCard);
   }
+
+  updateCount();
 }
 
-function editCardContent(card, newTitle, newImageURL) {
+// Populates a card element with a champion's data
+// FIX: function now takes (card, champion) — previously incorrectly took (card, Champion)
+//      which shadowed the global array, and was called with wrong arguments anyway.
+function editCardContent(card, champion) {
   card.style.display = "block";
 
-  const cardHeader = card.querySelector("h2");
-  cardHeader.textContent = newTitle;
+  // FIX: was card.querySelector('h1') — template uses <h2>, not <h1>
+  card.querySelector("h2").textContent = champion.Name;
+  card.querySelector("img").src = champion.Image;
+  card.querySelector("img").alt = champion.Name + " Splash Art";
 
-  const cardImage = card.querySelector("img");
-  cardImage.src = newImageURL;
-  cardImage.alt = newTitle + " Poster";
-
-  // You can use console.log to help you debug!
-  // View the output by right clicking on your website,
-  // select "Inspect", then click on the "Console" tab
-  console.log("new card:", newTitle, "- html: ", card);
+  console.log("New Card:", champion.Name);
 }
 
-// This calls the addCards() function when the page is first loaded
-document.addEventListener("DOMContentLoaded", showCards);
+// Opens the detail modal for a given champion
+function openModal(champion) {
+  // FIX: was "modal-image" — the actual HTML id is "modal-img"
+  document.getElementById("modal-img").src               = champion.Image;
+  document.getElementById("modal-name").textContent      = champion.Name;
+  document.getElementById("modal-role").textContent      = champion.Role;
+  document.getElementById("modal-lane").textContent      = champion.Lane;
+  document.getElementById("modal-difficulty").textContent = champion.Difficulty;
+  document.getElementById("modal-bio").innerText         = champion.Bio || "Bio coming soon.";
 
-function quoteAlert() {
-  console.log("Button Clicked!");
-  alert(
-    "I guess I can kiss heaven goodbye, because it got to be a sin to look this good!",
-  );
+  const guideLink = document.getElementById("modal-guide");
+  if (champion.Guide) {
+    guideLink.href = champion.Guide;
+    guideLink.style.display = "inline-block";
+  } else {
+    guideLink.style.display = "none";
+  }
+
+  document.getElementById("modal").style.display = "flex";
+  document.body.style.overflow = "hidden";
 }
 
-function removeLastCard() {
-  titles.pop(); // Remove last item in titles array
-  showCards(); // Call showCards again to refresh
+// Closes the detail modal
+function closeModal() {
+  document.getElementById("modal").style.display = "none";
+  document.body.style.overflow = "";
 }
+
+// Filters, searches, and sorts the champion list based on current control values
+function applyFilters() {
+  const searchVal = document.getElementById("searchInput").value.toLowerCase().trim();
+  const roleVal   = document.getElementById("roleFilter").value;
+  const laneVal   = document.getElementById("laneFilter").value;
+  const diffVal   = document.getElementById("diffFilter").value;
+  // FIX: "sortSelect" didn't exist in index.html — we added it there.
+  const sortVal   = document.getElementById("sortSelect").value;
+
+  let result = Champion.filter(c => {
+    const matchSearch = c.Name.toLowerCase().includes(searchVal);
+    const matchRole   = roleVal === "" || c.Role.includes(roleVal); // use includes so "Assassin/Skirmisher" still matches "Assassin"
+    const matchLane   = laneVal === "" || c.Lane.includes(laneVal);
+    const matchDiff   = diffVal === "" || c.Difficulty === diffVal;
+    return matchSearch && matchRole && matchLane && matchDiff;
+  });
+
+  if      (sortVal === "name-asc")  result.sort((a, b) => a.Name.localeCompare(b.Name));
+  else if (sortVal === "name-desc") result.sort((a, b) => b.Name.localeCompare(a.Name));
+  else if (sortVal === "diff-asc")  result.sort((a, b) => {
+    const order = { Low: 1, Moderate: 2, High: 3 };
+    return (order[a.Difficulty] || 0) - (order[b.Difficulty] || 0);
+  });
+  else if (sortVal === "diff-desc") result.sort((a, b) => {
+    const order = { Low: 1, Moderate: 2, High: 3 };
+    return (order[b.Difficulty] || 0) - (order[a.Difficulty] || 0);
+  });
+
+  displayedChampion = result;
+  showCards();
+}
+
+// Resets all filters and shows every champion
+function resetFilters() {
+  document.getElementById("searchInput").value = "";
+  document.getElementById("roleFilter").value  = "";
+  document.getElementById("laneFilter").value  = "";
+  document.getElementById("diffFilter").value  = "";
+  document.getElementById("sortSelect").value  = "";
+  displayedChampion = [...Champion];
+  showCards();
+}
+
+// Updates the "Showing X of Y champions" counter
+function updateCount() {
+  const el = document.getElementById("results-count");
+  if (!el) return;
+  el.textContent = displayedChampion.length === Champion.length
+    ? `Showing all ${Champion.length} champions`
+    : `Showing ${displayedChampion.length} of ${Champion.length} champions`;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  showCards();
+
+  // Wire up all filter/sort controls
+  document.getElementById("searchInput").addEventListener("input",  applyFilters);
+  document.getElementById("roleFilter").addEventListener("change",  applyFilters);
+  document.getElementById("laneFilter").addEventListener("change",  applyFilters);
+  document.getElementById("diffFilter").addEventListener("change",  applyFilters);
+  document.getElementById("sortSelect").addEventListener("change",  applyFilters);
+  document.getElementById("resetBtn").addEventListener("click",     resetFilters);
+
+  // FIX: clicking anywhere on a card opens the modal, not just the <h2>.
+  // We use event delegation on the container and walk up to find the .card element.
+  document.getElementById("card-container").addEventListener("click", function(e) {
+    const card = e.target.closest(".card");
+    if (!card) return;
+    const name = card.querySelector("h2").textContent;
+    const champion = Champion.find(c => c.Name === name);
+    if (champion) openModal(champion);
+  });
+
+  // Close modal by clicking the dark backdrop
+  document.getElementById("modal").addEventListener("click", function(e) {
+    if (e.target === this) closeModal();
+  });
+
+  // Close modal with Escape key
+  document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") closeModal();
+  });
+});

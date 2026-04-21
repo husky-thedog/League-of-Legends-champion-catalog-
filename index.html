@@ -1,31 +1,87 @@
 <!doctype html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+    <title>Champion Catalog</title>
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <script src="Bio.js"></script>
+    <script src="scripts.js"></script>
   </head>
-
   <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+ 
+    <header>
+      <h1>Champion Catalog</h1>
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search..." />
+        <select id="roleFilter">
+          <option value="">All Roles</option>
+          <option value="Mage">Mage</option>
+          <option value="Assassin">Assassin</option>
+          <option value="Marksman">Marksman</option>
+          <option value="Tank">Tank</option>
+          <option value="Diver">Diver</option>
+          <option value="Juggernaut">Juggernaut</option>
+          <option value="Skirmisher">Skirmisher</option>
+          <option value="Enchanter">Enchanter</option>
+          <option value="Catcher">Catcher</option>
+          <option value="Support">Support</option>
+          <option value="Specialist">Specialist</option>
+          <option value="Battlemage">Battlemage</option>
+          <option value="Burst Mage">Burst Mage</option>
+          <option value="Artillery Mage">Artillery Mage</option>
+        </select>
+        <select id="laneFilter">
+          <option value="">All Lanes</option>
+          <option value="Top">Top</option>
+          <option value="Mid">Mid</option>
+          <option value="Bot">Bot</option>
+          <option value="Jungle">Jungle</option>
+          <option value="Support">Support</option>
+        </select>
+        <select id="diffFilter">
+          <option value="">All Difficulties</option>
+          <option value="Low">Low</option>
+          <option value="Moderate">Moderate</option>
+          <option value="High">High</option>
+        </select>
+        <!-- FIX: sortSelect was referenced in scripts.js but missing from HTML -->
+        <select id="sortSelect">
+          <option value="">Sort By...</option>
+          <option value="name-asc">Name: A → Z</option>
+          <option value="name-desc">Name: Z → A</option>
+          <option value="diff-asc">Difficulty: Low → High</option>
+          <option value="diff-desc">Difficulty: High → Low</option>
+        </select>
+        <button id="resetBtn">Reset</button>
+      </div>
+      <p id="results-count"></p>
     </header>
+ 
     <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+ 
+    <!-- Template card (hidden) — kept for reference but cards are now built in JS -->
+    <div class="card" style="display:none">
+      <img src="" alt="" />
+      <div class="card-name">
+        <h2></h2>
       </div>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert()">Get A Quote!</button>
-      <button onclick="removeLastCard()">Remove A Card!</button>
+ 
+    <!-- Modal -->
+    <div id="modal">
+      <div id="modal-box">
+        <button id="close-btn" onclick="closeModal()">✕</button>
+        <!-- FIX: id was "modal-image" in scripts.js but "modal-img" here — kept as "modal-img" (correct) -->
+        <img id="modal-img" src="" alt="" />
+        <div id="modal-info">
+          <h2 id="modal-name"></h2>
+          <p><b>Role:</b> <span id="modal-role"></span></p>
+          <p><b>Lane:</b> <span id="modal-lane"></span></p>
+          <p><b>Difficulty:</b> <span id="modal-difficulty"></span></p>
+          <p id="modal-bio"></p>
+          <a id="modal-guide" href="#" target="_blank">▶ Watch Guide</a>
+        </div>
+      </div>
     </div>
+ 
   </body>
 </html>
